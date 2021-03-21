@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="" method="GET">
+    <div>
+      <label>Subject: </label>
+      <br>
+      <input type="text" placeholder="WRITE THE SUBJECT">
+    </div>
+    <br>
+    <hr style="height: 5px ; background-color: black  ;">
+    <br>
+    <div>
+      <label>Email: </label>
+      <br>
+      <input type="email" required placeholder="EMAIL">
+    </div>
+    <br>
+    <hr style="height: 5px ; background-color: black  ;">
+    <br>
+    <div>
+      <label>Mobile: </label>
+      <br>
+      <input type="number" min="01111111111" max="99999999999" placeholder="PHONE NUMBER">
+    </div>
+    <br>
+    <hr style="height: 5px ; background-color: black  ;">
+    <br>
+    <div>
+      <label>Password: </label>
+      <br>
+      <input type="password" placeholder="WRITE STRONG PASSWORD">
+    </div>
+    <br>
+    <hr style="height: 5px ; background-color: black  ;">
+    <br>
+    <div>
+      <label>Username: </label>
+      <br>
+      <input type="text" required placeholder="ENTER YOU USER NAME">
+    </div>
+    <br>
+    <hr style="height: 5px ; background-color: black  ;">
+    <br>
+    <div>
+      <label for="colo">color</label>
+      <br>
+      <input id="colo" type="color">
+      <br><br>
+      <hr style="height: 5px ; background-color: black  ;">
+    </div>
+    <div>
+      <label class="car">age</label>
+      <br>
+      <input type="range" min="5" max="100" onchange="agee(this.value)">
+      <br><br>      <hr style="height: 5px ; background-color: black  ;">
+      <div>
+        <label for="dt">Date:</label>
+        <input type="date" name="tt" id="dt">
+      </div>
+      <br><br>      <hr style="height: 5px ; background-color: black  ;">
+      <div>
+        <label for="om">month:</label>
+        <input type="month" name="ss" id="om">
+      </div>
+      <br><br>      <hr style="height: 5px ; background-color: black  ;">
+      <div>
+        <label for="ttt">time:</label>
+        <input type="time" name="zz" id="tt">
+      </div>
+      <br><br>      <hr style="height: 5px ; background-color: black  ;">
+    </div>
+    <div>
+      <input id="win" type="radio" name="os" value="windos">
+      <label for="win">Windos</label>
+    </div>
+    <div>
+      <input id="mac" type="radio" name="os" value="mac">
+      <label for="mac">mac</label>
+    </div>
+    <div>
+      <input id="linux" type="radio" name="os" value="linux">
+      <label for="linux">linux</label>
+    </div>
+    <hr style="height: 5px ; background-color: black  ;"> 
+    <div>
+      <input  id ="h" type="checkbox" name="skill" value="HTMl">
+      <label for="h">HTML</label>
+    </div>
+    <div>
+      <input  id ="c" type="checkbox" name="skill" value="css">
+      <label for="c">CSS</label>
+    </div>
+    <div>
+      <input  id ="j" type="checkbox" name="skill" value="js">
+      <label for="j">JavaScript</label>
+    </div>
+    <hr style="height: 5px ; background-color: black  ;">
+    <div>
+      <label for="gen">gender:</label>
+      <select name="gender" id="gen" >
+        <optgroup label="stright">
+        <option value="1">male</option>
+        <option value="2">female</option>
+        <option value="3">donkey</option>
+        </optgroup>
+        <optgroup label="3rs">
+          <option value="4">gay</option>
+          <option value="5" selected>shemale</option>
+          <option value="6">step sis</option>
+        </optgroup>
+      </select>
+    </div>
+    <hr style="height: 5px ; background-color: black  ;">
+    <div>
+      <label >main programing lang</label>
+      <input list="programing" name="prog" >  
+      <datalist id="programing">
+          <option value="C"></option>
+          <option value="C++"></option>
+          <option value="C#"></option>
+          <option value="java"></option>
+          <option value="JavaScript"></option>
+          <option value="python"></option>
+          <option value="php"></option>
+          <option value="go"></option>
+          <option value="flutter"></option>
+      </datalist>
+    </div>
+    <hr style="height: 5px ; background-color: black  ;">
+    <div>
+      <label for="com">write any tips for us:</label>
+      <br>
+    <textarea name="com" id="com" cols="30" rows="10"></textarea>
+    </div>
+    <hr style="height: 5px ; background-color: black  ;">
+    <div>
+      <label for="what">search</label>
+      <input type="search" name="zzzzz" id="what">
+    </div>
+    <hr style="height: 5px ; background-color: black  ;">
+    <div>
+      <label for="lin">URL</label>
+      <input type="link" name="lol" id="lin">
+    </div>
+    <hr style="height: 5px ; background-color: black  ;">
+    <div>
+      <label for="fill">upload photo of you</label>
+      <input type="file" name="flfl" id="fill">
+    </div>
+    <hr style="height: 5px ; background-color: black  ;">
+    <input type="text" value="b92f1fc2fce391ad7af633723afd3055" hidden>
+    <input type="reset" value="Empty form">
+    <input type="Submit" value="sign in">
+  </form>
+</body>
+<script src="age.js"></script>
+</html>
